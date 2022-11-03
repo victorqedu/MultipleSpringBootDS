@@ -1,0 +1,8 @@
+package com.web.caido.service.admindb2;
+import java.util.List;
+import com.web.caido.entity.admindb2.Lang;public interface LangService {
+	public List<Lang> findAll();
+	public Lang findById(int theId);
+	public void save(Lang object);
+	public void deleteById(int theId);
+}
